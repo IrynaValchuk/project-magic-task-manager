@@ -49,18 +49,25 @@ const Welcome = () => {
           Supercharge your productivity and take control of your tasks with Task
           Pro - Don't wait, start achieving your goals now!
         </p>
-        <NavLink className={css.registrationLink} to="/auth/register">
+        <NavLink className={css.buttonLink} to="/auth/register">
           Registration
         </NavLink>
-        <NavLink className={css.logInLink} to="/auth/login">
+        <NavLink className={css.buttonLink} to="/auth/login">
           Log In
         </NavLink>
-        <GoogleButton
+        <p className={css.choiceLine}>or</p>
+        <button
+          className={css.googleButton}
           onClick={() =>
             (window.location.href =
               'https://goit-final-project.onrender.com/api/users/google')
           }
-        />
+        >
+          <span className={css.logoGoogleBox}>
+            <Icon id="logo-google" width="24" height="24"></Icon>
+          </span>
+          Sign in with Google
+        </button>
       </div>
     </div>
   );
