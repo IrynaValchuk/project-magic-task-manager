@@ -5,7 +5,6 @@ import Icon from '../../components/icon/Icon';
 import css from './welcome.module.scss';
 import { useDispatch } from 'react-redux';
 import { useSearchParams } from 'react-router-dom';
-import GoogleButton from 'react-google-button';
 import { getCurrentUser, setToken } from 'redux/auth/auth-operation';
 
 const Welcome = () => {
