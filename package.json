@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://IrynaValchuk.github.io/task-manager/",
+  "homepage": "https://IrynaValchuk.github.io/project-magic-task-manager/",
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@react-oauth/google": "^0.11.1",
